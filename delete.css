@@ -1,0 +1,23 @@
+.del{
+    display: inline-block;
+  }
+  .addcart{
+    display: none;
+  }
+  body{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./img/resturant.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .product{
+    background: linear-gradient(135deg,#1f2641,#F40076);
+    color: white;
+    border: 2px solid #1f2641;
+
+  }
+  .product>button{
+    background: linear-gradient(135deg,#1f2641,#F40076);
+    color: white;
+    border: 2px solid white;
+  }

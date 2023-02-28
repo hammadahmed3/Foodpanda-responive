@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    /* height: 100vh; */
+  }
+  
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.main-cont{
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px white;
+    margin-left: 2%;
+    width: 95%;
+    /* #F40076 – #DF98FA */
+    background: linear-gradient( #F40076, #ab41d4);
+
+    color: white;
+    font-size: 22px;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-top: 2%;
+}
+#product-list{
+    display: none;
+  }
+  
+#cartpro{
+  width: 11%;
+  height: 13vh;
+  font-size: 25px;
+  background: linear-gradient(135deg,#1f2641,#F40076);
+  color: white;
+  border: #e21b70;
+  border-radius: 50px;
+  margin-top: 5%; 
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 12px;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  
+}
+  #checkout,#additems{
+    width: 11%;
+    height: 13vh;
+    font-size: 25px;
+    background: linear-gradient(135deg,#1f2641,#F40076);
+    
+    border: #e21b70;
+    border-radius: 50px;
+    margin-top: 5%; 
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 12px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+  }
+  #checkout a,#additems a{
+    color: white;
+    text-decoration: none;
+  }
